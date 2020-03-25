@@ -17,6 +17,6 @@ pipeline(readStream, transformStream, writeStream, (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("Pipeline succeeded.");
+    console.log("Pipeline completed successfully.");
   }
 });
